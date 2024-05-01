@@ -255,7 +255,7 @@ NOTE: To open a terminal window, `*click on 'Terminal' -> 'New Terminal'*`
 --
 ====
 
-Once done, you can conviently run your service using **Spring Boot maven plugin** and test the endpoint. 
+Once done, you can conveniently run your service using **Spring Boot maven plugin** and test the endpoint. 
 
 [tabs, subs="attributes+,+macros"]
 ====

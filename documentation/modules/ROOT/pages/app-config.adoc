@@ -148,7 +148,7 @@ Then, enter the following information:
 
 |===
 
-`*Click on 'Create' button*`, shortly a Postgresql dtabase pod should be created:-
+`*Click on 'Create' button*`, shortly a Postgresql database pod should be created:-
 
 image::openshift-catalog-postgresql-topology.png[OpenShift - Catalog PostgreSQL, 700]
 
@@ -485,7 +485,7 @@ image::config-psql-secret.png[Secrets as Env Vars,900]
 == Test your Service (again)
 
 Having made all those changes with adding databases and the application configuration you should now 
-test that the Coolstore application still works. Just like you did a couple of chapters ago you need to use the toplogy 
+test that the Coolstore application still works. Just like you did a couple of chapters ago you need to use the topology 
 display in the web console.
 
 In the {OPENSHIFT_CONSOLE_URL}[OpenShift Web Console^, role='params-link'], from the **Developer view**,

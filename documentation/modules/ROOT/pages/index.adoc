@@ -27,7 +27,7 @@ Monitor its health.
 
 Discover OpenShift service resilience, scale and fault tolerance.
 
-Finally utilise external configuration to leverage OpenShift database access.
+Finally utilize external configuration to leverage OpenShift database access.
 
 === Audience
 

@@ -92,7 +92,7 @@ image::openshift-add-http-route.png[OpenShift - Add route, 600]
 
 `*Click on 'Create' button*` 
 
-Now wait a few minutes for the application to built by OpenShift and deployed to your project. In the toplogy view, 
+Now wait a few minutes for the application to built by OpenShift and deployed to your project. In the topology view, 
 the web application pod will not be ready until the blue ring goes dark blue.
 
 [#test_your_service]
