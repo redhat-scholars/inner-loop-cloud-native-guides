@@ -17,7 +17,7 @@ and getting familiar with the OpenShift CLI and OpenShift Web Console.
 [#what_is_codeready_workspaces]
 == What is Red Hat OpenShift Dev Spaces?
 
-.Red Hat OpenShift DevSpaces
+.Red Hat OpenShift Dev Spaces
 ****
 [window=_blank, align="center"]
 https://access.redhat.com/products/red-hat-openshift-dev-spaces[OpenShift Dev Spaces^] is a Kubernetes-native IDE and developer collaboration platform.
@@ -64,7 +64,7 @@ to this file.
 //[link={CHE_URL}/#https://raw.githubusercontent.com/RedHat-EMEA-SSA-Team/end-to-end-developer-workshop/{WORKSHOP_GIT_REF}/devfile.yaml]
 [window=_blank, align="center"]
 [role='params-link']
-image::developer-workspace-button.svg[Developer Workspace - Button, 300]
+image::developer-workspace-button.png[Developer Workspace - Button, 300]
 
 Then `*Click 'Log in with OpenShift'*`
 
