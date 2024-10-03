@@ -481,7 +481,7 @@ image::config-psql-secret.png[Secrets as Env Vars,900]
 == Test your Service (again)
 
 Having made all those changes with adding databases and the application configuration you should now 
-test that the Coolstore application still works. Just like you did a couple of chapters ago you need to use the toplogy 
+test that the Coolstore application still works. Just like you did a couple of chapters ago you need to use the topology 
 display in the web console.
 
 In the OpenShift Web Console, from the **Developer view**,

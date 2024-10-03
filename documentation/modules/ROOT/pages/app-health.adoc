@@ -72,7 +72,7 @@ image::openshift-inventory-delete-pod.png[OpenShift Inventory Delete Pod, 700]
 A new instance (pod) will be redeployed very quickly. Once deleted `*try to access your Inventory application test page*`.
 
 However, imagine the _Inventory Service_ is stuck in a state (Stopped listening, Deadlock, etc)
-where it cannot perform as it should. In this case, the pod will not immeditaely die, it will be in a zombie state.
+where it cannot perform as it should. In this case, the pod will not immediately die, it will be in a zombie state.
 
 To make your application more robust and reliable, a **Liveness check**  will be used to check 
 if the container itself has become unresponsive. If the liveness probe fails due to a condition such as a deadlock, 
@@ -206,7 +206,7 @@ Wait till the build is complete then, `*Delete the Inventory Pod*` to make it st
 oc delete pod -l component=inventory
 ----
 
-It will take a few seconds to retstart, then verify that the health endpoint works for the **Inventory Service** using `*curl*`
+It will take a few seconds to restart, then verify that the health endpoint works for the **Inventory Service** using `*curl*`
 
 In your Workspace, 
 `*execute the following commands in the terminal window*` - it may take a few attempts while the pod restarts.
@@ -384,7 +384,7 @@ image::openshift-catalog-edit-health.png[Che - Catalog Add Health Check, 700]
 ==  Understanding Startup Probes
 
 **Startup probes** are similar to liveness probes but only executed at startup.
-When a startup probe is configured, the other probes are disabled until it suceeds.
+When a startup probe is configured, the other probes are disabled until it succeeds.
 
 Sometimes, some (legacy) applications might need extra times for their first initialization. 
 In such cases, setting a longer liveness internal might compromise the main benefit of this probe ie providing 
