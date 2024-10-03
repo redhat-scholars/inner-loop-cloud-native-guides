@@ -59,7 +59,7 @@ Then, enter the following information:
 |Value
 
 |Git Repo URL
-|\https://github.com/RedHat-EMEA-SSA-Team/end-to-end-developer-workshop
+|\https://github.com/RedHat-EMEA-SSA-Team/end-to-end-developer-workshop.git
 
 |Git Reference (see *advanced Git options*)
 |**{WORKSHOP_GIT_REF}**
