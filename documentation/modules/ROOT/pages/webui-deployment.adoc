@@ -76,6 +76,9 @@ Then, enter the following information:
 |Name
 |**web-coolstore**
 
+|Deploy > Resource type
+|**Deployment**
+
 |Create a route to the application
 |**_Checked_**
 
