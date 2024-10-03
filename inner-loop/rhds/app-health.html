@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>Monitor Application Health :: OpenShift Inner Loop Workshop</title>
+    <title>Monitor Application Health :: OpenShift Inner Loop Workshop for Developer Sandbox</title>
     <link rel="canonical" href="https://redhat-scholars.github.io/course-template/inner-loop/rhds/app-health.html">
     <link rel="prev" href="webui-deployment.html">
     <link rel="next" href="app-config.html">
@@ -18,7 +18,7 @@
     <div class="navbar-brand">
       <a class="navbar-item" href="https://developers.redhat.com" target="_blank"><img
           src="../../_/img/header_logo.png" height="40px" alt="Red Hat Developer Program"></a>
-      <a class="navbar-item" href="https://redhat-scholars.github.io/course-template">OpenShift Inner Loop Workshop</a>
+      <a class="navbar-item" href="https://redhat-scholars.github.io/course-template">OpenShift Inner Loop Workshop for Developer Sandbox</a>
       <button class="navbar-burger" data-target="topbar-nav">
         <span></span>
         <span></span>
@@ -255,7 +255,7 @@ this happening.</p>
 </div>
 <div class="paragraph">
 <p>However, imagine the <em>Inventory Service</em> is stuck in a state (Stopped listening, Deadlock, etc)
-where it cannot perform as it should. In this case, the pod will not immeditaely die, it will be in a zombie state.</p>
+where it cannot perform as it should. In this case, the pod will not immediately die, it will be in a zombie state.</p>
 </div>
 <div class="paragraph">
 <p>To make your application more robust and reliable, a <strong>Liveness check</strong>  will be used to check
@@ -461,7 +461,7 @@ To open a terminal window, <code><strong>click on 'Terminal' &#8594; 'New Termin
 </div>
 </div>
 <div class="paragraph">
-<p>It will take a few seconds to retstart, then verify that the health endpoint works for the <strong>Inventory Service</strong> using <code><strong>curl</strong></code></p>
+<p>It will take a few seconds to restart, then verify that the health endpoint works for the <strong>Inventory Service</strong> using <code><strong>curl</strong></code></p>
 </div>
 <div class="paragraph">
 <p>In your Workspace,
@@ -722,7 +722,7 @@ using Eclipse JKube in combination with the Spring Boot actuator.</p>
 <div class="sectionbody">
 <div class="paragraph">
 <p><strong>Startup probes</strong> are similar to liveness probes but only executed at startup.
-When a startup probe is configured, the other probes are disabled until it suceeds.</p>
+When a startup probe is configured, the other probes are disabled until it succeeds.</p>
 </div>
 <div class="paragraph">
 <p>Sometimes, some (legacy) applications might need extra times for their first initialization.
