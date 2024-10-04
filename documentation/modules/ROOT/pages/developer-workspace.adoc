@@ -95,7 +95,7 @@ to this file.
 
 [window=_blank, align="center"]
 [role='params-link']
-image::developer-workspace-button.png[Developer Workspace - Button, 300]
+image::launch-crw.png[Launch Dev Spaces, 300]
 
 Then `*Click 'Log in with OpenShift'*`
 
