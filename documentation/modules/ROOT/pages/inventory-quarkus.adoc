@@ -242,14 +242,6 @@ You will need to do this with all your application URLs, but fortunately the bro
 
 [NOTE]
 ====
-Recently browsers such as *Google Chrome* have started converting all *HTTP* requests into *HTTPS* (secure) requests by 
-default. This is a problem for this workshop since all application URLs are HTTP only and will result in a failure to display. 
-Please check carefully in the URL bar for a padlock and edit the URL to remove any *'s'* to make the request HTTP (ie. Not Secure) 
-and then retry. Its not the purpose of this simple workshop to demonstrate how OpenShift can leverage TLS security.
-====
-
-[NOTE]
-====
 Please *don't close* that Inventory output browser tab, you will need it for the next few steps of this lab.
 
 If by accident you close that browser tab then you should be able to reopen it from your browser history.
